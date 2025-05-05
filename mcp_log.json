@@ -1,0 +1,16 @@
+[
+  {
+    "timestamp": "2024-06-01 10:00:00",
+    "action": "create_issue",
+    "description": "Created issue: Fix login bug",
+    "result": "success",
+    "link": "https://github.com/yourrepo/issues/1"
+  },
+  {
+    "timestamp": "2024-06-01 10:05:00",
+    "action": "search_code",
+    "description": "Searched for 'fastapi' in repo",
+    "result": "success",
+    "link": ""
+  }
+]
