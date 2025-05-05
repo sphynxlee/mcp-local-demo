@@ -1,0 +1,48 @@
+# MCP Server + Cursor (LLM) Productivity Demo
+
+This repository demonstrates how to use a Python-based MCP server together with a local LLM (simulated as "Cursor") to improve productivity by automating and assisting with server tasks.
+
+## Features
+- Minimal MCP server using FastAPI
+- Simulated LLM (Cursor) integration
+- Example workflow showing how the LLM can interact with the MCP server
+
+## Requirements
+- Python 3.8+
+- pip
+
+## Setup
+```bash
+pip install -r requirements.txt
+```
+
+## Running the MCP Server
+```bash
+python mcp_server.py
+```
+
+## Using the LLM (Cursor) Demo
+In a separate terminal, run:
+```bash
+python cursor_llm_demo.py
+```
+
+This will show how the LLM can:
+- Query the MCP server
+- Automate repetitive tasks
+- Provide suggestions or summaries
+
+## File Overview
+- `mcp_server.py`: The FastAPI-based MCP server
+- `cursor_llm_demo.py`: Simulated LLM client interacting with the server
+- `requirements.txt`: Python dependencies
+
+## Example Output
+```
+[LLM] Sending request to MCP server...
+[LLM] Received response: { ... }
+[LLM] Task completed and summarized.
+```
+
+---
+This demo is for educational purposes and can be extended for real-world productivity workflows.
